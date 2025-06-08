@@ -27,22 +27,24 @@ Containerization: Docker + Docker Compose
 🧠 (Optional) Vector search for task similarity (using Sentence Transformers + pgvector)
 
 🚀 Live Demo
-▶️ Click to Watch the Demo Video
+(https://raw.githubusercontent.com/arjumand252/task_mgr/main/task manager 2.mp4)
 
 
 # Local Development
 1. Clone the Repository
+
 git clone https://github.com/yourusername/task-manager-app.git
 cd task-manager-app
 
-2️. Environment Setup (Docker)
+2. Environment Setup (Docker)
+
 docker-compose up --build
 Frontend will be available at: http://localhost:3000
 Backend will be available at: http://localhost:5000
 
 # Project Structure
-css
-Copy code
+
+```bash
 task-manager-app/
 │
 ├── backend/
@@ -61,6 +63,8 @@ task-manager-app/
 ├── docker-compose.yml
 ├── README.md
 └── ...
+```
+
 # Screenshots
 Task List	Add Task Form	Search
 
