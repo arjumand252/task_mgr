@@ -7,7 +7,7 @@ Frontend: React, TailwindCSS / Custom CSS
 
 Backend: Flask (Python)
 
-Database: PostgreSQL (with optional Sklearn and sentence_transformers for vector similarity search)
+Database: PostgreSQL (with Sklearn and sentence_transformers for vector similarity search, for searching similar task with ease.)
 
 ORM: SQLAlchemy
 
@@ -24,7 +24,7 @@ Containerization: Docker + Docker Compose
 
 🐳 Fully containerized using Docker
 
-🧠 (Optional) Vector search for task similarity (using Sentence Transformers + pgvector)
+🧠 Vector search for task similarity (using Sentence Transformers + pgvector)
 
 🚀 Live Demo
 
@@ -36,14 +36,17 @@ The full demo video is available in the file: /task manager 2.mp4
 # Local Development
 1. Clone the Repository
 
-git clone https://github.com/yourusername/task-manager-app.git
-cd task-manager-app
+  git clone https://github.com/yourusername/task-manager-app.git
+
+  cd task-manager-app
 
 2. Environment Setup (Docker)
 
-docker-compose up --build
-Frontend will be available at: http://localhost:3000
-Backend will be available at: http://localhost:5000
+  docker-compose up --build
+  
+  Frontend will be available at: http://localhost:3000
+  
+  Backend will be available at: http://localhost:5000
 
 # Project Structure
 
@@ -91,7 +94,7 @@ DELETE method: Endpoint =		/tasks/<id>, Description = 	Delete a task
 
 GET method: Endpoint =	/search?q=term, Description = 	Search tasks by title
 
-# Acknowledgements
+# Libraries and Technologies Used
 Flask
 React
 pgvector
