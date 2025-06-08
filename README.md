@@ -27,7 +27,10 @@ Containerization: Docker + Docker Compose
 🧠 (Optional) Vector search for task similarity (using Sentence Transformers + pgvector)
 
 🚀 Live Demo
+
 ![Demo](taskmanager2-gif.gif)
+
+The full demo video is available in the file: /task manager 2.mp4
 
 
 # Local Development
