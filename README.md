@@ -3,7 +3,7 @@ A beautiful, full-stack task management web application built with React, Flask,
 
 
 # Tech Stack
-Frontend: React, TailwindCSS / Custom CSS
+Frontend: React, Custom CSS
 
 Backend: Flask (Python)
 
@@ -36,7 +36,7 @@ The full demo video is available in the file: /task manager 2.mp4
 # Local Development
 1. Clone the Repository
 
-  git clone https://github.com/yourusername/task-manager-app.git
+  git clone <link to this repo>
 
   cd task-manager-app
 
@@ -94,8 +94,11 @@ DELETE method: Endpoint =		/tasks/<id>, Description = 	Delete a task
 
 GET method: Endpoint =	/search?q=term, Description = 	Search tasks by title
 
-# Libraries and Technologies Used
+# Technologies Used
 Flask
+
 React
+
 pgvector
+
 Sentence Transformers
