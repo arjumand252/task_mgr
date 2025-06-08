@@ -84,8 +84,11 @@ Searching for task based on description similarity
 
 # API Endpoints
 GET method: Endpoint =	/tasks, Description = Get all tasks
+
 POST method: Endpoint =		/tasks, Description = 	Create a task
+
 DELETE method: Endpoint =		/tasks/<id>, Description = 	Delete a task
+
 GET method: Endpoint =	/search?q=term, Description = 	Search tasks by title
 
 # Acknowledgements
