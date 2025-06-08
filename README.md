@@ -69,7 +69,10 @@ task-manager-app/
 ```
 
 # Screenshots
-Task List	Add Task Form	Search
+
+![Add Task](dd.png)
+![List of Tasks](list.png)
+![Searching for task based on description similarity] (search.png)
 
 # API Endpoints
 Method	Endpoint	Description
