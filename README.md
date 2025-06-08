@@ -70,9 +70,17 @@ task-manager-app/
 
 # Screenshots
 
+Add Task
+
 ![Add Task](dd.png)
+
+List of Tasks
+
 ![List of Tasks](list.png)
-![Searching for task based on description similarity] (search.png)
+
+Searching for task based on description similarity
+
+![Searching for task based on description similarity](search.png)
 
 # API Endpoints
 Method	Endpoint	Description
