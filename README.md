@@ -83,11 +83,10 @@ Searching for task based on description similarity
 ![Searching for task based on description similarity](search.png)
 
 # API Endpoints
-Method	Endpoint	Description
-GET	/tasks	Get all tasks
-POST	/tasks	Create a task
-DELETE	/tasks/<id>	Delete a task
-GET	/search?q=term	Search tasks by title
+GET method: Endpoint =	/tasks, Description = Get all tasks
+POST method: Endpoint =		/tasks, Description = 	Create a task
+DELETE method: Endpoint =		/tasks/<id>, Description = 	Delete a task
+GET method: Endpoint =	/search?q=term, Description = 	Search tasks by title
 
 # Acknowledgements
 Flask
